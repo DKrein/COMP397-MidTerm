@@ -62,13 +62,13 @@ module scenes {
             this.addChild(this._dice2);
             
             this._labelDice1 = new objects.Label(
-                "label1","20px Consolas", 
+                "","20px Consolas", 
                 "#000000", 
                 config.Screen.CENTER_X-150,config.Screen.CENTER_Y+120);
             this.addChild(this._labelDice1);
             
             this._labelDice2 = new objects.Label(
-                "label2","20px Consolas", 
+                "","20px Consolas", 
                 "#000000", 
                 config.Screen.CENTER_X+150,config.Screen.CENTER_Y+120);
             this.addChild(this._labelDice2);

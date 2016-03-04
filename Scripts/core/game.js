@@ -25,7 +25,7 @@ var assetData = [
     { id: "StartButton", src: "../../Assets/images/StartButton.png" },
     { id: "StartOverButton", src: "../../Assets/images/StartOverButton.png" },
     { id: "RollButton", src: "../../Assets/images/RollButton.png" },
-    { id: "Blank", src: "../../Assets/images/blank1.png" },
+    { id: "Blank", src: "../../Assets/images/blank.png" },
     { id: "1", src: "../../Assets/images/1.png" },
     { id: "2", src: "../../Assets/images/2.png" },
     { id: "3", src: "../../Assets/images/3.png" },
