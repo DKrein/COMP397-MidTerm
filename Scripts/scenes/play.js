@@ -10,6 +10,7 @@ Revision:
 2 - added button and event handler
 3 - added function to find a random number and display the image
 4 - added the labels
+5 - Sound added when clicking in roll
 */
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -62,6 +63,7 @@ var scenes;
             this._labelDice2.text = randDice2.toString();
             this._dice1.image = assets.getResult(randDice1.toString());
             this._dice2.image = assets.getResult(randDice2.toString());
+            createjs.Sound.play("DiceSound");
         };
         return Play;
     })(objects.Scene);

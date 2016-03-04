@@ -10,6 +10,7 @@ File description:
 
 Revision:
 1 - added new images for the dice
+2 - added sound for dice rolling
 */
 
 // global variables
@@ -37,7 +38,8 @@ var assetData:objects.Asset[] = [
     {id: "3", src:"../../Assets/images/3.png"},    
     {id: "4", src:"../../Assets/images/4.png"},    
     {id: "5", src:"../../Assets/images/5.png"},    
-    {id: "6", src:"../../Assets/images/6.png"}
+    {id: "6", src:"../../Assets/images/6.png"},
+    {id: "DiceSound", src:"../../Assets/sounds/dice.ogg"}
 ];
 
 function preload() {

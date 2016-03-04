@@ -10,6 +10,7 @@ Revision:
 2 - added button and event handler 
 3 - added function to find a random number and display the image
 4 - added the labels
+5 - Sound added when clicking in roll
 */
 
 
@@ -96,6 +97,8 @@ module scenes {
            
            this._dice1.image = assets.getResult(randDice1.toString());
            this._dice2.image = assets.getResult(randDice2.toString());
+           
+           createjs.Sound.play("DiceSound");
         }
     }
 }
